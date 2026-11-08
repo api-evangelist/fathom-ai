@@ -1,4 +1,4 @@
-# fathom-ai
+# Fathom AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fathom-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fathom.ai/
+Fathom AI provides an AI-powered meeting note‑taking platform that captures conversation highlights, generates summaries, and creates actionable insights. It integrates with tools like ChatGPT, Claude, Asana, HubSpot, Salesforce, and Zapier, offering a bot‑free experience for individuals and teams. The service emphasizes privacy and compliance, being SOC 2 Type II, GDPR, HIPAA, and SSO/SCIM certified, and is used by over 500 K companies worldwide.
+
+**Areas:** AI · Meeting · Productivity · Note-taking · Integration
+
+## Fathom AI on APIs.io
+
+Everything profiled for Fathom AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fathom-ai/](https://apis.io/providers/fathom-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Fathom API](https://apis.io/apis/fathom-ai/fathom-api/) — API reference for Fathom AI providing endpoints for meeting notes and integrations.
+- [Fathom AI API](https://apis.io/apis/fathom-ai/fathom-ai-api/) — Fathom AI API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist (2026-11-07); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [GetExternalV1MeetingsResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-external-v1-meetings-response/)
+- [GetExternalV1RecordingsRecordingidTranscriptResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-external-v1-recordings-recordingid-transcript-response/)
+- [GetMeetingsResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-meetings-response/)
+- [GetRecordingsRecordingidTranscriptResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-recordings-recordingid-transcript-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fathom Ai Context](https://apis.io/jsonld/fathom-ai/fathom-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Fathom AI API Rules](https://apis.io/rules/fathom-ai/fathom-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fathom Ai Authentication](https://apis.io/security/fathom-ai/fathom-ai-authentication/)
+- [Fathom Ai Domain Security](https://apis.io/security/fathom-ai/fathom-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fathom Ai Plans Pricing](https://apis.io/plans/fathom-ai/fathom-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fathom.ai/)
+- [Documentation](https://developers.fathom.ai/)
+- [Getting started](https://developers.fathom.ai/quickstart)
+- [API reference](https://developers.fathom.ai/api-overview)
+- [Pricing](https://www.fathom.ai/pricing)
+- [Changelog](https://www.fathom.ai/whats-new)
+- [Terms of service](https://www.fathom.ai/terms)
+- [Privacy policy](https://www.fathom.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.4** — developing · rubric 0.27.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 50.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 60.0 |
+
+**Agent readiness 46.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fathom-ai/](https://apis.io/providers/fathom-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fathom AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fathom-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
