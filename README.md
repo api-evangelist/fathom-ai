@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fathom AI provides an AI-powered meeting note‑taking platform that captures conversation highlights, generates summaries, and creates actionable insights. It integrates with tools like ChatGPT, Claude, Asana, HubSpot, Salesforce, and Zapier, offering a bot‑free experience for individuals and teams. The service emphasizes privacy and compliance, being SOC 2 Type II, GDPR, HIPAA, and SSO/SCIM certified, and is used by over 500 K companies worldwide.
+Fathom AI provides an AI‑powered note‑taking service that captures, transcribes, and summarizes Zoom, Google Meet, and Microsoft Teams calls. It offers a free tier for individuals and paid plans for teams with CRM integration, delivering searchable, editable meeting notes and actionable insights. The platform emphasizes privacy, accuracy, and seamless workflow integration for modern remote collaboration environments.
 
-**Areas:** AI · Meeting · Productivity · Note-taking · Integration
+**Areas:** AI · Note-taking · Collaboration · Transcription · Productivity
 
 ## Fathom AI on APIs.io
 
@@ -74,21 +74,29 @@ Everything profiled for Fathom AI is published on APIs.io rather than in this re
 
 ### APIs (2)
 
-- [Fathom API](https://apis.io/apis/fathom-ai/fathom-api/) — API reference for Fathom AI providing endpoints for meeting notes and integrations.
-- [Fathom AI API](https://apis.io/apis/fathom-ai/fathom-ai-api/) — Fathom AI API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist (2026-11-07); not the provider's own document.
+- [Fathom API](https://apis.io/apis/fathom-ai/fathom-api/) — API reference for Fathom AI providing endpoints for note‑taking, transcription, and summarization services.
+- [Fathom AI API](https://apis.io/apis/fathom-ai/fathom-ai-api/) — Fathom AI API as documented publicly: 18 operations. Contract generated from the documentation by API Evangelist (2026-11-08); not the provider's own document.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### JSON Schema (4)
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Fathom Ai Webhooks](https://apis.io/asyncapis/fathom-ai/fathom-ai-webhooks/)
+
+#### JSON Schema (6)
 
 The data models the API reads and writes.
 
-- [GetExternalV1MeetingsResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-external-v1-meetings-response/)
-- [GetExternalV1RecordingsRecordingidTranscriptResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-external-v1-recordings-recordingid-transcript-response/)
-- [GetMeetingsResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-meetings-response/)
-- [GetRecordingsRecordingidTranscriptResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-recordings-recordingid-transcript-response/)
+- [GetExternalV1RecordingsRecordingidDownloadResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-external-v1-recordings-recordingid-download-response/)
+- [GetExternalV1WebhooksResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-external-v1-webhooks-response/)
+- [GetRecordingsRecordingidDownloadsDownloadidResponse](https://apis.io/schemas/fathom-ai/fathom-ai-get-recordings-recordingid-downloads-downloadid-response/)
+- [PostExternalV1RecordingsRecordingidDownloadResponse](https://apis.io/schemas/fathom-ai/fathom-ai-post-external-v1-recordings-recordingid-download-response/)
+- [PostWebhooksRequest](https://apis.io/schemas/fathom-ai/fathom-ai-post-webhooks-request/)
+- [PostWebhooksResponse](https://apis.io/schemas/fathom-ai/fathom-ai-post-webhooks-response/)
 
 #### JSON-LD (1)
 
@@ -115,13 +123,19 @@ Published plans, tiers and prices.
 
 - [Fathom Ai Plans Pricing](https://apis.io/plans/fathom-ai/fathom-ai-plans-pricing/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Fathom Ai Rate Limits](https://apis.io/rate-limits/fathom-ai/fathom-ai-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://fathom.ai/)
-- [Documentation](https://developers.fathom.ai/)
-- [Getting started](https://developers.fathom.ai/quickstart)
+- [Website](https://www.fathom.ai/)
+- [Documentation](https://www.fathom.ai/overview)
+- [Getting started](https://www.fathom.ai/overview)
 - [API reference](https://developers.fathom.ai/api-overview)
 - [Pricing](https://www.fathom.ai/pricing)
 - [Changelog](https://www.fathom.ai/whats-new)
@@ -130,18 +144,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 52.4** — developing · rubric 0.27.0 · scored 2026-11-07
+**Kin Score 61.2** — strong · rubric 0.27.0 · scored 2026-11-08
 
 | Facet | Score |
 |---|---|
 | Discoverability | 57.1 |
-| Contract quality | 50.0 |
+| Contract quality | 63.6 |
 | Contract governance | 79.1 |
-| Operational transparency | 15.8 |
-| Developer ergonomics | 47.6 |
+| Operational transparency | 42.6 |
+| Developer ergonomics | 57.1 |
 | Access clarity | 60.0 |
 
-**Agent readiness 46.1** — agent-ready (gated down from agent-native)
+**Agent readiness 50.1** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -153,8 +167,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | partial |
-| Rate Limit Signal | — |
-| Event Surface Described | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
 | Agent Skills | — |
 | Well Known Catalog | — |
 | Consent Identity | — |
@@ -165,7 +179,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
 | Pagination Ratio | paginated |
-| Operation Distinctiveness | distinct |
+| Operation Distinctiveness | — |
 | MCP Tool Quality | na |
 
 **Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
